@@ -1,0 +1,136 @@
+.about {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .sectionTitle {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .aboutContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .aboutText {
+    flex: 1;
+  }
+  
+  .aboutHeading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .aboutDescription {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .about__image {
+    flex: 1;
+    text-align: center;
+    margin-left: 8rem;
+  }
+
+  .about__image{
+    mix-blend-mode: multiply;
+  filter: contrast(1);
+  }
+  
+@media only screen and (max-width: 576px) {
+    .about__image{
+      margin: auto;
+      text-align: center;
+      align-items: center;
+    }
+  }
+  
+.about__img img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.about__content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.about__content p {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.about__info-wrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about__info-item {
+  background: var(--secondary-color);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  width: 150px;
+  text-align: center;
+}
+
+.about__info-item h5 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.about__info-item p {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .about__content h2 {
+    font-size: 2rem;
+  }
+
+  .about__info-wrapper {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about__content h2 {
+    font-size: 1.5rem;
+  }
+
+  .about__info-wrapper {
+    justify-content: center;
+  }
+
+  .about__info-item {
+    width: 130px;
+    padding: 1rem;
+  }
+
+  .about__info-item h5 {
+    font-size: 1.2rem;
+  }
+
+  .about__info-item p {
+    font-size: 0.9rem;
+  }
+}
+  

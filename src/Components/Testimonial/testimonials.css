@@ -1,0 +1,132 @@
+.testimonial__section {
+  background-color: #f8f9fa;
+  padding: 5rem 0;
+}
+
+.testimonial__wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial__content {
+  margin-bottom: 2rem;
+}
+
+.testimonial__avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 4px solid var(--primary-color);
+}
+
+.testimonial__text h4 {
+  color: var(--heading-color);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial__text .location {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial__text .comment {
+  color: var(--text-color);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.rating {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial__controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.control__btn {
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.control__btn:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+.add__testimonial-btn {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.add__testimonial-btn:hover {
+  background: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+/* Modal Styles */
+.modal__header {
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal__header h5 {
+  margin: 0;
+  color: var(--heading-color);
+}
+
+.modal__body {
+  padding: 1rem;
+}
+
+.close {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .testimonial__wrapper {
+    padding: 1rem;
+  }
+
+  .testimonial__text .comment {
+    font-size: 1rem;
+  }
+
+  .testimonial__avatar {
+    width: 80px;
+    height: 80px;
+  }
+} 

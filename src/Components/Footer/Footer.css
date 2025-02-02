@@ -1,0 +1,237 @@
+.footer {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background: var(--secondary-color);
+}
+
+.footer__logo {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.footer__logo img {
+    width: 180px;
+    margin-bottom: 1rem;
+    object-fit: contain;
+}
+
+.footer__logo p {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.social__links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social__links span a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social__links span a:hover {
+    background: #fff;
+    color: var(--secondary-color);
+    transform: translateY(-3px) rotate(8deg);
+}
+
+.footer__link-title {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.footer__quick-links {
+    background: transparent !important;
+}
+
+.footer__quick-links li {
+    background: transparent !important;
+    padding: 0 !important;
+    margin-bottom: 0.8rem;
+}
+
+.footer__quick-links li a,
+.footer__quick-links li p {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.footer__quick-links li a:hover {
+    color: var(--primary-color);
+    transform: translateX(5px);
+}
+
+.footer__quick-links h6 {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.footer__quick-links h6 span i {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 2rem;
+    margin-top: 3rem;
+}
+
+/* Contact Info Styles */
+.contact__info {
+    color: var(--text-color);
+    line-height: 30px;
+    font-size: 1.1rem;
+}
+
+.contact__info i {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+/* Newsletter Styles */
+.newsletter {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.newsletter__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.newsletter__input input {
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: var(--heading-color);
+    width: 100%;
+}
+
+.newsletter__input input:focus {
+    outline: none;
+}
+
+.newsletter__btn {
+    padding: 0.5rem 1.5rem !important;
+    background: var(--primary-color) !important;
+    color: #fff !important;
+    font-size: 1.1rem !important;
+    white-space: nowrap;
+}
+
+.footer__link-title {
+    margin-bottom: 1rem;
+}
+
+.footer__quick-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__quick-links li {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 992px) {
+    .footer__logo img {
+        width: 150px;
+    }
+
+    .footer__quick-links li a,
+    .footer__quick-links li p {
+        font-size: 1rem;
+    }
+
+    .newsletter {
+        margin-top: 30px;
+    }
+
+    .newsletter__input {
+        padding: 0.5rem;
+    }
+
+    .newsletter__input input {
+        padding: 0.5rem 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .newsletter__btn {
+        padding: 0.5rem 1rem !important;
+        font-size: 1rem !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .footer__logo {
+        margin-bottom: 2rem;
+    }
+
+    .footer__quick-links {
+        margin-bottom: 2rem;
+    }
+
+    .footer__link-title {
+        margin-bottom: 0.8rem;
+    }
+
+    .newsletter {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer__logo img {
+        width: 120px;
+    }
+
+    .footer__quick-links li a,
+    .footer__quick-links li p {
+        font-size: 0.9rem;
+    }
+
+    .footer__link-title {
+        font-size: 1.1rem;
+    }
+
+    .copyright {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
