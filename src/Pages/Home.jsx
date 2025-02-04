@@ -7,6 +7,7 @@ import heroVideo from "../assets/images/hero-video.mp4";
 import worldImg from "../assets/images/world.png";
 import experienceImg from "../assets/images/experience.png";
 import Testimonials from "../Components/Testimonial/Testimonials";
+import ServiceList from '../Components/Services/ServiceList';
 
 // Import gallery images
 import galleryImg01 from '../assets/images/gallery-01.jpg';
@@ -80,6 +81,7 @@ const Home = () => {
               <h5 className="services__subtitle">What we serve</h5>
               <h2 className="services__title">We offer our best services</h2>
             </Col>
+            <ServiceList />
           </Row>
         </Container>
       </section>
