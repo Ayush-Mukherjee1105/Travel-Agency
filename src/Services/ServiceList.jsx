@@ -1,12 +1,12 @@
 import React from 'react'
 import ServiceCard from './ServiceCard'
-import { Col,Row } from 'reactstrap'
+import { Col, Row } from 'reactstrap'
 import weatherImg from "../assets/images/weather.png"
 import guideImg from "../assets/images/guide.png"
 import customizationImg from "../assets/images/customization.png"
 import toursImg from "../assets/images/tours.png"
 
-const serviceData =[
+const serviceData = [
     {
         imgUrl: weatherImg,
         title: "Calculate Weather",
@@ -26,22 +26,18 @@ const serviceData =[
         imgUrl: toursImg,
         title: "Tours",
         desc: "Discover amazing tours and destinations"
-      }
+    }
 ]
 
 const ServiceList = () => {
   return (
-    <div>
-        {
-              <Row>
-              {serviceData.map((item, index) => (
-                <Col lg="3" md="6" sm="12" className='mb-4' key={index}>
-                  <ServiceCard item={item} />
-                </Col>
-              ))}
-            </Row>
-        }
-    </div>
+    <>
+      {serviceData.map((item, index) => (
+        <Col lg="3" md="6" sm="12" className='mb-4' key={index}>
+          <ServiceCard item={item} />
+        </Col>
+      ))}
+    </>
   )
 }
 
