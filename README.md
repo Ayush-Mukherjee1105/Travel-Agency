@@ -1,1 +1,2 @@
-WonderLuxe
+WonderLuxe - travel
+
