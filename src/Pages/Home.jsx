@@ -48,8 +48,9 @@ const Home = () => {
                   <span className="highlight"> memories</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Ullam ipsum nobis asperiores soluta voluptas quas voluptates.
+                  Sit Back Relax with your loved ones, look at the view
+                  <br></br>
+                  While We take care of all the hassles for you!
                 </p>
               </div>
             </Col>
